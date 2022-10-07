@@ -11,7 +11,7 @@ aux_source_directory(RestorePipeline RestorePipeline)
 aux_source_directory(ArrangementPipeline ArrangementPipeline)
 add_subdirectory(gflags-2.2.2)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
 
 link_libraries(gflags::gflags isal_crypto pthread crypto jemalloc)
 
