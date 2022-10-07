@@ -23,7 +23,7 @@ public:
         ClassFilePath = path + "/storageFiles/Category%lu";
         VersionFilePath = path + "/storageFiles/Volume%lu";
         ManifestPath = path + "/manifest";
-        KVPath = path + "kvstore";
+        KVPath = path + "/kvstore";
         HomePath = path;
         ClassFileAppendPath = path + "/storageFiles/Category%lu_append";
         int64_t rt = toml::find<int64_t>(data, "retention");
